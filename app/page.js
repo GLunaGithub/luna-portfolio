@@ -43,7 +43,7 @@ export default function Home() {
           
           <h2 className='text-5xl py-2 text-teal-700 font-medium md:text-6xl dark:text-teal-500'>Gavin Miguel Luna</h2>
 
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
               <Image src={doggocomputer} layout='fill' objectFit='cover'/>
             </div>
 
