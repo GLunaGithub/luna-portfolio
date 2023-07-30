@@ -43,14 +43,14 @@ export default function Home() {
           
           <h2 className='text-5xl py-2 text-teal-700 font-medium md:text-6xl dark:text-teal-500'>Gavin Miguel Luna</h2>
 
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
-              <Image src={doggocomputer} layout='fill' objectFit='cover'/>
-            </div>
-
           <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Freelance Web Developer</h3>
           <p className='text-md py-5 leading-8 md:text-xl max-w-lg mx-auto dark:text-white'>
             Here to provide you Web development services that suites your content needs. Let's ride this journey and create your website now!
           </p>
+        </div>
+
+        <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-96 md:w-96'>
+              <Image src={doggocomputer} layout='fill' objectFit='cover'/>
         </div>
 
         <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-500'>
