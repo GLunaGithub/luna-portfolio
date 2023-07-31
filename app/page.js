@@ -15,6 +15,9 @@ import mysqlicon from '../public/mysqlicon.png'
 
 import handshakeicon from '../public/handshakeicon.png'
 
+import showcase1 from '../public/showcase1.gif'
+import showcase2 from '../public/showcase2.gif'
+
 import { useState } from 'react'
 
 export default function Home() {
@@ -136,7 +139,11 @@ export default function Home() {
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
 
           <div className='basis-1/3 flex-1'>
-            <Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+            <Image className='rounded-lg object-cover' src={showcase1} width={'100%'} height={'100%'} layout='responsive'/>
+          </div>
+
+          <div className='basis-1/3 flex-1'>
+            <Image className='rounded-lg object-cover' src={showcase2} width={'100%'} height={'100%'} layout='responsive'/>
           </div>
 
         </div>
